@@ -4,28 +4,62 @@ import { useState } from "react";
 
 const MovieDB = {
   scifi: [
-    { name: "Inception", rating: "4/5" },
-    { name: "Interstellar", rating: "4.8/5" }
+    { name: "Inception", rating: "4/5", desc: "A sci-fi thriller" },
+    {
+      name: "Interstellar",
+      rating: "4.8/5",
+      desc: "A Journey across the space"
+    },
+    { name: "Star-trek", rating: "4.2/5", desc: "A space adventure" },
+    {
+      name: "Gravity",
+      rating: "4.9/5",
+      desc: "The survival story of an astronaut"
+    }
   ],
 
   survival: [
     {
       name: "Mad Max",
-      rating: "5/5"
+      rating: "4.3/5",
+      desc: "A post-apocalyptic action film"
     },
     {
       name: "Predator",
-      rating: "4/5"
+      rating: "4.1/5",
+      desc: "American science fiction action anthology"
+    },
+    {
+      name: "The Revenant",
+      rating: "4/5",
+      desc: "A frontiersman on a fur trading expedition"
+    },
+    {
+      name: "The Martian",
+      rating: "3.6/5",
+      desc: "An astronaut becomes stranded on Mars"
     }
   ],
   comedy: [
     {
       name: "The pineapple express",
-      rating: "5/5"
+      rating: "3.9/5",
+      desc: "American comedy film"
     },
     {
       name: "Hera Pheri",
-      rating: "3/5"
+      rating: "3.8/5",
+      desc: "Indian Hindi-language comedy film"
+    },
+    {
+      name: "Free Guy",
+      rating: "3.7/5",
+      desc: "American action-comedy film"
+    },
+    {
+      name: "Scott Pilgrim",
+      rating: "4.2/5",
+      desc: "Romantic action comedy"
     }
   ]
 };
